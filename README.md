@@ -25,3 +25,15 @@ jarvis/
 └── README.md
 
 
+## 🚀 Setup Instructions
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/jarvis-voice-assistant.git
+   cd jarvis-voice-assistant
+2.pip install -r requirements.txt
+3. OPENAI_API_KEY=your-api-key-here
+4.python main.py
+
+
+
