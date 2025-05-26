@@ -50,31 +50,31 @@
 
 
 
-2.Create and activate a virtual environment (optional but recommended):
+2.**Create and activate a virtual environment (optional but recommended):**
 
 python -m venv .venv
 source .venv/bin/activate       # On Linux/macOS
 .venv\Scripts\activate          # On Windows
 
 
-3.Install dependencies:
+3.**Install dependencies:**
 
 pip install -r requirements.txt
 
 
-4.Set your OpenAI API key:
+4.**Set your OpenAI API key:**
 
 export OPENAI_API_KEY="your_openai_api_key_here"     # Linux/macOS
 setx OPENAI_API_KEY "your_openai_api_key_here"       # Windows (restart terminal after)
 
 
-Usage
+###  Usage
 Run the main script to start Jarvis:
 python main.py
 
 
 
-Project Structure
+### Project Structure
 
 
 
@@ -84,3 +84,39 @@ Project Structure
 ├── requirements.txt       # Project dependencies
 ├── README.md              # This file
 └── jarvis-voice-assistant/ # (Optional submodule or folder containing additional assets or scripts)
+
+### 🌍 Open Source
+This project is open-source and built for the community.
+You’re welcome to fork, improve, and contribute to its development.
+
+🔗 GitHub: Jarvis Voice Assistant
+
+
+### 💡 Possible Enhancements
+*Context memory and conversation history
+
+*GUI interface for command interaction
+
+*IoT device support
+
+*Language translation capabilities
+
+### 🛠️ Built With
+
+*Python
+
+*OpenAI GPT API
+
+*SpeechRecognition
+
+*PyAudio
+
+*TQDM
+
+### 👨‍💻 Author
+**Rohan Kumar**
+📍 LinkedIn=www.linkedin.com/in/rohan-kumar-1a60b7314
+📦 GitHub: rohan911438
+
+
+
